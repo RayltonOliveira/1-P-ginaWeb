@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
+body {
+  width: 100%;
+}
+header {
+  background: #c8c6c6;
+  padding: 20px;
+}
+.caixa {
+  position: relative; /* para fazer o menu nav centralizar com caixa */
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 115px; /* imagem logo tem um tamanho de 250, então para menu ficar no centro */
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  font-size: 22px;
+}
+nav a:hover {
+  color: rgb(30, 162, 142);
+  transition: all 0.5s ease-in-out;
+}
+
+footer {
+  padding: 35px 0;
+  text-align: center;
+  background: #cccccc;
+  background: url(../img/bg.jpg);
+  color: rgb(252, 252, 252);
+}
+
+/* Página dos Contatos */
+
+/* configuracao mobile  */
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios,
+  .imagem-beneficios {
+    width: 100%;
+  }
+}
