@@ -28,13 +28,13 @@ form legend {
   border-radius: 10px;
   font-weight: bold;
   font-size: 18px;
-  background: #311803;
+  background: #035e88;
   color: aliceblue;
   cursor: pointer;
   transition: 1s all;
 }
 .botao:hover {
-  background-color: #71675c;
+  background-color: #b1a497;
   color: #000000;
 }
 
